@@ -63,7 +63,7 @@ section {
 }
 
 #ern {
-    background-image: url(images/Backgrounds.svg);
+    background-image: url(Backgrounds.svg);
     /* background-position: center; */
     background-size: cover;
     background-repeat: no-repeat;
