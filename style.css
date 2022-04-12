@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+}
+
+section {
+    /* padding-top: 34px;
+    padding-bottom: 36px; */
+    z-index: 2;
+    /* position: relative; */
+}
+
+.navline {
+    background: rgba(255, 255, 255, 0.8) !important;
+    z-index: 99 !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+.launch_btn {
+    background: #2A85FF;
+    border: none;
+    outline: 0;
+    color: #FCFCFC;
+    font-weight: 700;
+    font-size: 15px;
+    width: 176px;
+    height: 48px;
+    border-radius: 12px;
+}
+
+.stake_btn {
+    background: #2A85FF;
+    text-decoration: none;
+    color: white;
+    padding: 15px 37px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.stake_btn:hover {
+    color: white;
+}
+
+.buy_btn {
+    background: #FCFCFC;
+    text-decoration: none;
+    color: #030319;
+    padding: 15px 37px;
+    border-radius: 12px;
+    border: 2px solid #EFEFEF;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.buy_btn:hover {
+    color: #030319;
+}
+
+#ern {
+    background-image: url(images/Backgrounds.svg);
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.apy {
+    padding-top: 24%;
+}
+
+.apy h1 {
+    font-weight: 600;
+    font-size: 96px;
+    font-family: 'Clash Grotesk';
+}
+
+.apy h1 span {
+    background: linear-gradient(187.45deg, #00DECA -37.09%, #3A8AFA 34.79%, #1A6AF4 153.08%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+}
+
+.apy p {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(3, 3, 25, 0.8);
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+video[poster] {
+    object-fit: cover;
+}
+
+body {
+    position: relative;
+}
+
+#stkng_vid {
+    padding-top: 91px;
+    padding-bottom: 91px;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 55px;
+    width: 193px;
+    height: 52px;
+    color: #030319;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #030319;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.nav-item {
+    padding-top: 5px;
+}
+
+.nav-item a {
+    text-align: center;
+}
+
+.navbar-nav {
+    background: #EDF3FE;
+    border-radius: 49px;
+    width: 596px;
+    height: 68px;
+    /* text-align: center; */
+    align-items: center;
+    padding: 9px 10px 15px;
+    margin: 4px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-three ul {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.section-three li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 50px;
+}
+
+.section-three ul li img {
+    position: absolute;
+    top: 3px;
+    left: 0px;
+}
+
+.sclpcoin {
+    padding-top: 5%;
+}
+
+.sclpcoin p {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(3, 3, 25, 0.8);
+}
+
+.sclpcoin h1 {
+    font-weight: 600;
+    font-size: 48px;
+    color: #030319;
+    font-family: 'Clash Grotesk';
+}
+
+.guid a {
+    color: #2A85FF;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.sectn {
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 389px;
+    /* height: 120px; */
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #EFEFEF;
+    border-radius: 12px;
+}
+
+.card:hover {
+    background: #E5F1FF;
+    cursor: pointer;
+}
+
+.rewcrdtzt li {
+    color: rgba(3, 3, 25, 0.8);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.main_footr {
+    margin-top: 10%;
+}
+
+.bkgtzt {
+    color: rgba(3, 3, 25, 0.6);
+    /* font-weight: 600; */
+    /* font-size: 18px; */
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "Manrope";
+}
+
+.download {
+    background: #e5f1ff;
+    background: #e5f1ff;
+    width: 42%;
+    padding: 13px 18px 11px 11px;
+    border-radius: 32px;
+}
+
+.dlc {
+    color: #7babfa;
+}
+
+.mr-60 {
+    margin-right: 22px;
+}
+
+.pptzt {
+    margin-right: 30px;
+}
+
+.reser {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-top: 20px;
+}
+
+.ftc {
+    color: rgba(3, 3, 25, 0.6);
+    /* font-family: "Manrope"; */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.ftc:hover {
+    color: black !important;
+}
+
+.ftcok {
+    /* font-family: Manrope;
+    font-style: normal; */
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(3, 3, 25, 0.6);
+}
+
+@media(min-width:300px) and (max-width:900px) {
+    .hdnv {
+        display: none;
+    }
+}
+
+@media(min-width:350px) and (max-width:1100px) {
+    .apy h1 {
+        font-size: 60px;
+    }
+
+    .apy p {
+        font-size: 16px;
+    }
+
+    .stake_btn,
+    .buy_btn {
+        padding: 15px 24px;
+    }
+
+    .download {
+        width: 74%;
+    }
+
+    .mr-60 {
+        margin-right: 7px;
+    }
+
+    .reser {
+        display: inline-block;
+        margin-top: 0px;
+        align-items: center;
+    }
+
+    .pptzt {
+        margin-right: 10px;
+        font-size: 14px;
+    }
+
+    .sclpcoin p {
+        font-size: 16px;
+    }
+
+    .sclpcoin h1 {
+        font-size: 38px;
+    }
+
+    .rewcrdtzt li {
+        font-size: 13px;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1390px) {
+    .card {
+        width: 100%;
+    }
+}
+
+@media (min-width:300px) and (max-width:405px) {
+    .tprightbt {
+        margin-left: -50px;
+    }
+
+    .launch_btn {
+        width: 135px;
+        height: 43px;
+    }
+}
+
+.scluk {
+    margin-left: 2%;
+}
