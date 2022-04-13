@@ -121,13 +121,14 @@ body {
     color: #030319;
     font-weight: 800;
     font-size: 18px;
+    padding-top: 13px;
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: #030319;
     font-weight: 500;
     font-size: 18px;
-    padding-top: 10px;
+    padding: 10px 26px;
 }
 
 .nav-item {
