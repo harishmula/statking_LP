@@ -63,7 +63,7 @@ section {
 }
 
 #ern {
-  background-image: url(Backgrounds.svg);
+  background-image: url(images/Backgrounds.svg);
   /* background-position: center; */
   background-size: cover;
   background-repeat: no-repeat;
@@ -303,7 +303,7 @@ body {
   }
 
   .apy p {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .stake_btn,
@@ -331,7 +331,7 @@ body {
   }
 
   .sclpcoin p {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .sclpcoin h1 {
@@ -345,9 +345,12 @@ body {
   .card {
     width: 100%;
   }
+  .section-three ul {
+    font-size: 16px;
+  }
 }
 
-@media screen and (max-width: 1390px) {
+@media screen and (max-width: 1399px) {
   .card {
     width: 100%;
   }
@@ -418,4 +421,19 @@ body {
   top: 0;
   z-index: 1020;
   padding-top: 23px;
+}
+.toghid {
+  z-index: 3000;
+  display: block;
+  position: relative;
+  background: #fff;
+}
+@media (min-width: 768px) and (max-width: 1399px) {
+  .rewcrdtzt li {
+    font-size: 10px;
+  }
+  .sclpcoin p,
+  .section-three ul {
+    font-size: 16px;
+  }
 }
